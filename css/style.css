@@ -1,0 +1,7 @@
+.project {
+  border: 2px solid blue;
+}
+
+.project .col-sm-6 .row-cols-1 .col .tittle h2 {
+  color: green;
+}

@@ -1,0 +1,224 @@
+:root {
+  --main-dark-: #212529;
+  --main-primary-: #0d6efd;
+  --main-secondary-: #6c757d;
+  --main-background-1-: #f1f3f5;
+  --main-background-2-: #e9ecef;
+  --main-border-: #d6c08d;
+  --main-warning-: #fd7e14;
+  --main-danger-: #dc3545;
+}
+
+/* Navabr */
+.navbarall {
+  border-bottom: 1px solid var(--main-background-2-);
+  position: relative;
+}
+
+.navbarall .img-avatar {
+  width: 125px;
+  height: 125px;
+  border: 5px solid #f7f7f7;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.navbarall .navbar-avatar {
+  padding: 0 6rem;
+}
+
+.navbarall .nav-item1 {
+  border-left: 1px solid var(--main-background-2-);
+  border-right: 1px solid var(--main-background-2-);
+}
+
+.navbarall a {
+  text-decoration: none;
+  color: var(--main-dark-);
+}
+
+.navbarall ul i {
+  color: var(--main-primary-);
+}
+
+/* Jobinfo */
+.card-text-a .listicon {
+  display: flex;
+  margin-top: 15px;
+  gap: 15px;
+  color: var(--main-primary-);
+}
+
+.jobcol1 {
+  background: var(--main-background-1-);
+}
+
+.jobcol2 {
+  background: var(--main-background-2-);
+}
+
+/* Boxes */
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-text li:before {
+  background-color: #4c6ef5;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  margin-right: 16px;
+  margin-bottom: 1px;
+  height: 10px;
+  width: 10px;
+}
+
+.card-text-1 {
+  padding: 6px 12px;
+  border-radius: 10px;
+  background-color: var(--main-primary-);
+  color: #fff;
+}
+
+.card-text-2,
+.card-text-3 {
+  padding-bottom: 30px;
+}
+
+.card-text-icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+}
+
+.card-text-icon p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.card-text-icon .ic-megaphone,
+.card-text-icon .ic-strategy,
+.card-text-icon .ic-hotairballoon,
+.card-text-icon .ic-basket {
+  font-size: 1.4rem;
+  padding-top: 12px;
+  height: 52px;
+  width: 52px;
+  color: var(--main-primary-);
+  border: 1px solid var(--main-primary-);
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.card-text-gachchan {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.gachngangxanh {
+  background: var(--main-primary-);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.gachngangxam {
+  background: var(--main-secondary-);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/* Certificate */
+.certificate,
+.certicardbg {
+  background: var(--main-background-1-);
+}
+
+.certi2 .certicard,
+.certi3 .certicard {
+  border: none;
+}
+
+.certificate h6 {
+  font-size: 0.9rem;
+}
+
+.certi2 .certicol1 {
+  border-right: 1px solid var(--main-border-);
+}
+.certi2 {
+  border-bottom: 1px solid var(--main-border-);
+}
+.certicard .card-body {
+  padding: 0 0 0 1rem;
+}
+
+/* Project */
+.imgproject {
+  width: 300px;
+  height: 200px;
+}
+
+.projectcol {
+  display: flex;
+}
+
+.text2021 {
+  display: inline-block;
+  background: var(--main-primary-);
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 1.5rem;
+  height: 24px;
+  width: 52px;
+  color: #fff;
+}
+
+.borderall {
+  border: 1px solid var(--main-background-2-);
+}
+
+.borderall1 {
+  border-bottom: 1px solid var(--main-background-2-);
+  border-top: 1px solid var(--main-background-2-);
+}
+
+.borderall2 {
+  border-bottom: 1px solid var(--main-background-2-);
+}
+
+.borderall2 .psicon {
+  padding-left: 0.5rem;
+}
+
+.projects p {
+  font-size: 14px;
+}
+
+/* Footer */
+.footer {
+  background: var(--main-background-1-);
+  margin: 0 3rem;
+}
+
+.footer a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: var(--main-secondary-);
+}
+
+.footer a:hover {
+  color: var(--main-warning-);
+}
+
+.footer i {
+  color: var(--main-primary-);
+  font-size: 1.5rem;
+}
+
+/* End */

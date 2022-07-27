@@ -1,0 +1,45 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  /* Navbar */
+  .navbar-avatar img {
+    display: none;
+  }
+
+  .navbarall .navbar-avatar {
+    padding: 0 1rem;
+  }
+
+  .navbarall .nav-item {
+    border-left: 1px solid var(--main-background-2-);
+    border-right: 1px solid var(--main-background-2-);
+  }
+
+  /* Boxes */
+  .container-boxes .col-sm-4 {
+    width: 50%;
+  }
+
+  /* Certificate */
+  .certi2 .col-md-4,
+  .certi2 .col-md-8,
+  .certi3 .col-md-4,
+  .certi3 .col-md-8 {
+    width: 100%;
+  }
+  .certicard .card-body {
+    padding: 0;
+  }
+
+  /* Project */
+  .borderall2 .col-3 {
+    width: 35%;
+  }
+  .borderall2 .col-4 {
+    width: 65%;
+  }
+  .borderall2 .col-5 {
+    width: 100%;
+    text-align: end;
+  }
+}
+
+/* End */
